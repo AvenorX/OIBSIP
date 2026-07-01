@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio<span>.</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#skills-section" style="--i:4">Skills</a>
+            <a href="#project" style="--i:5">Project</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sakshi Jha</h1>
+            <h3>And I'm a Full Stack Developer <span class="typed-text"></span></h3>
+            <p>I am a passionate Full Stack Developer who enjoys creating responsive, user-friendly, and modern web applications. I love solving real-world problems through clean code and continuously learning new technologies to improve my skills.
+                <br>My expertise is in website design, frontend development, and much more....</p>
+            <div class="home-sci">
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-tiktok'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+
+        <!-- AVATAR -->
+        <div class="home-img">
+            <div class="robot-container">
+                <div class="ring1"></div>
+                <div class="ring2"></div>
+                <div class="dot dot1"></div>
+                <div class="dot dot2"></div>
+                <div class="dot dot3"></div>
+                <div class="dot dot4"></div>
+                <div class="robot-circle">
+                    <svg class="robot-svg" viewBox="0 0 220 270" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="103" y="0" width="14" height="22" rx="4" fill="#0ef"/>
+                        <circle cx="110" cy="0" r="9" fill="#0ef">
+                            <animate attributeName="r" values="7;11;7" dur="1.5s" repeatCount="indefinite"/>
+                            <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+                        </circle>
+                        <rect x="45" y="22" width="130" height="90" rx="16" fill="#0a2a4a" stroke="#0ef" stroke-width="2"/>
+                        <rect x="60" y="48" width="38" height="22" rx="8" fill="#0ef" opacity="0.9"/>
+                        <rect x="122" y="48" width="38" height="22" rx="8" fill="#0ef" opacity="0.9"/>
+                        <circle cx="73" cy="57" r="5" fill="white" opacity="0.6"/>
+                        <circle cx="135" cy="57" r="5" fill="white" opacity="0.6"/>
+                        <rect x="68" y="88" width="84" height="10" rx="5" fill="#0ef" opacity="0.7"/>
+                        <circle cx="82" cy="93" r="3" fill="#051129"/>
+                        <circle cx="96" cy="93" r="3" fill="#051129"/>
+                        <circle cx="110" cy="93" r="3" fill="#051129"/>
+                        <circle cx="124" cy="93" r="3" fill="#051129"/>
+                        <circle cx="138" cy="93" r="3" fill="#051129"/>
+                        <rect x="97" y="112" width="26" height="16" rx="4" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                        <rect x="30" y="128" width="160" height="110" rx="18" fill="#0a2a4a" stroke="#0ef" stroke-width="2"/>
+                        <rect x="55" y="145" width="110" height="60" rx="10" fill="#051129" stroke="#0ef" stroke-width="1"/>
+                        <circle cx="85" cy="168" r="9" fill="#0ef">
+                            <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="110" cy="168" r="9" fill="#a855f7">
+                            <animate attributeName="opacity" values="1;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="135" cy="168" r="9" fill="#0ef">
+                            <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" repeatCount="indefinite"/>
+                        </circle>
+                        <rect x="65" y="190" width="90" height="7" rx="4" fill="#0ef" opacity="0.2"/>
+                        <rect x="65" y="190" width="55" height="7" rx="4" fill="#0ef" opacity="0.9"/>
+                        <rect x="0" y="133" width="28" height="80" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                        <rect x="3" y="192" width="22" height="16" rx="5" fill="#0ef" opacity="0.6"/>
+                        <rect x="192" y="133" width="28" height="80" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                        <rect x="195" y="192" width="22" height="16" rx="5" fill="#0ef" opacity="0.6"/>
+                        <rect x="60" y="238" width="42" height="28" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                        <rect x="118" y="238" width="42" height="28" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="home-img">
+                <div class="robot-container">
+                    <div class="ring1"></div>
+                    <div class="ring2"></div>
+                    <div class="dot dot1"></div>
+                    <div class="dot dot2"></div>
+                    <div class="dot dot3"></div>
+                    <div class="dot dot4"></div>
+                    <div class="robot-circle">
+                        <svg class="robot-svg" viewBox="0 0 220 270" xmlns="http://www.w3.org/2000/svg">
+                            <use href="#"></use>
+                            <rect x="103" y="0" width="14" height="22" rx="4" fill="#0ef"/>
+                            <circle cx="110" cy="0" r="9" fill="#0ef"/>
+                            <rect x="45" y="22" width="130" height="90" rx="16" fill="#0a2a4a" stroke="#0ef" stroke-width="2"/>
+                            <rect x="60" y="48" width="38" height="22" rx="8" fill="#0ef" opacity="0.9"/>
+                            <rect x="122" y="48" width="38" height="22" rx="8" fill="#0ef" opacity="0.9"/>
+                            <circle cx="73" cy="57" r="5" fill="white" opacity="0.6"/>
+                            <circle cx="135" cy="57" r="5" fill="white" opacity="0.6"/>
+                            <rect x="68" y="88" width="84" height="10" rx="5" fill="#0ef" opacity="0.7"/>
+                            <rect x="97" y="112" width="26" height="16" rx="4" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                            <rect x="30" y="128" width="160" height="110" rx="18" fill="#0a2a4a" stroke="#0ef" stroke-width="2"/>
+                            <rect x="55" y="145" width="110" height="60" rx="10" fill="#051129" stroke="#0ef" stroke-width="1"/>
+                            <circle cx="85" cy="168" r="9" fill="#0ef"/>
+                            <circle cx="110" cy="168" r="9" fill="#a855f7"/>
+                            <circle cx="135" cy="168" r="9" fill="#0ef"/>
+                            <rect x="65" y="190" width="90" height="7" rx="4" fill="#0ef" opacity="0.2"/>
+                            <rect x="65" y="190" width="55" height="7" rx="4" fill="#0ef" opacity="0.9"/>
+                            <rect x="0" y="133" width="28" height="80" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                            <rect x="3" y="192" width="22" height="16" rx="5" fill="#0ef" opacity="0.6"/>
+                            <rect x="192" y="133" width="28" height="80" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                            <rect x="195" y="192" width="22" height="16" rx="5" fill="#0ef" opacity="0.6"/>
+                            <rect x="60" y="238" width="42" height="28" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                            <rect x="118" y="238" width="42" height="28" rx="10" fill="#0a2a4a" stroke="#0ef" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am a second-year B.Tech student with a strong interest in Full Stack Development and modern web technologies. I have experience building responsive websites using HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB.
+I enjoy developing projects that are fast, user-friendly, and visually appealing. I am always eager to learn new technologies, improve my problem-solving skills, and work on innovative projects that make a real impact.</p>
+            <a href="#contact" class="btn-box">Hire Me</a>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="section-line"></div>
+
+        <div class="services-list">
+
+            <div>
+                <img class="service-img" src="https://picsum.photos/seed/frontend/400/300" alt="Frontend Development">
+                <div class="service-body">
+                    <i class='bx bx-code-alt' style='color:#00eeff'></i>
+                    <h2>Frontend Development</h2>
+                    <p>I build responsive, interactive, and user-friendly websites using HTML, CSS, JavaScript, and React.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <img class="service-img" src="https://picsum.photos/seed/backend/400/300" alt="Backend Development">
+                <div class="service-body">
+                    <i class='bx bx-server' style='color:#00eeff'></i>
+                    <h2>Backend Development</h2>
+                    <p>I develop secure REST APIs and server-side applications using Node.js, Express.js, and MongoDB.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <img class="service-img" src="https://picsum.photos/seed/fullstack/400/300" alt="Full Stack Development">
+                <div class="service-body">
+                    <i class='bx bx-layer' style='color:#00eeff'></i>
+                    <h2>Full Stack Development</h2>
+                    <p>I create complete web applications from frontend to backend with clean, scalable code.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <img class="service-img" src="https://picsum.photos/seed/responsive/400/300" alt="Responsive Design">
+                <div class="service-body">
+                    <i class='bx bx-devices' style='color:#00eeff'></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>I design websites that work seamlessly across desktops, tablets, and mobile devices.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+
+            <div>
+                <img class="service-img" src="https://picsum.photos/seed/api/400/300" alt="API Integration">
+                <div class="service-body">
+                    <i class='bx bx-transfer-alt' style='color:#00eeff'></i>
+                    <h2>API Integration</h2>
+                    <p>I integrate third-party APIs and backend services to build dynamic and feature-rich applications.</p>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+ 
+   
+    <section id="skills-section">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+        <div class="section-line"></div>
+
+        <div class="skills-flex">
+            <div class="container" id="skills">
+                <h1 class="heading1">Technical skills</h1>
+
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-html5" style="color:#c95d2e"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-css3" style="color:#147bbc"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-javascript" style="color:#e0c12e"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line js"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-python" style="color:#a855f7"></i>
+                        <span>DSA(c++)</span>
+                    </div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-react" style="color:#69bcbc"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="progress-line react"><span></span></div>
+                </div>
+            </div>
+
+            <div class="container1">
+                <h1 class="heading1">Professional skills</h1>
+
+                <div class="radial-bars">
+                    <svg viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-90" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Quick learning</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-65" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-75" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Problem solving</div>
+                </div>
+
+                <div class="radial-bars">
+                    <svg viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-85" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="main-text">
+            <h2>Latest <span>Project</span></h2>
+            <div class="section-line"></div>
+            <div class="portfolio-content">
+                <div class="row">
+                    <div class="thumb t1"><i class='bx bx-devices'></i></div>
+                    <div class="layer">
+                        <h5>UI/UX Design</h5>
+                        <p>A mobile app design concept focused on clean UI and intuitive UX flows.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumb t2"><i class='bx bx-code-block'></i></div>
+                    <div class="layer">
+                        <h5>Website Development</h5>
+                        <p>A fully responsive business website built with HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="thumb t3"><i class='bx bx-book-open'></i></div>
+                    <div class="layer">
+                        <h5>Learning App</h5>
+                        <p>An e-learning mobile application designed for quick, easy lessons.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h1 class="sub-title" style="text-align:left; padding-bottom:20px;">Contact <span>Me</span></h1>
+                <h3>Let's Work Together</h3>
+                <p>Have a project in mind or just want to say hi? Fill out the form and I'll get back to you as soon as possible.</p>
+                <div class="info-line"><i class='bx bx-envelope'></i> contact@gmail.com</div>
+                <div class="info-line"><i class='bx bx-phone'></i> 0123456789</div>
+
+                <div class="contact-sci">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="text" placeholder="Enter Your Subject">
+                <textarea placeholder="Enter Your Message" required></textarea>
+                <button type="submit">Submit</button>
+                <div class="form-status" id="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <a href="#home" class="scroll-top" id="scroll-top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <footer>
+        <p>Developed with <i class='bx bxs-heart' style="color:#ff004f"></i> by Sakshi Jha &copy; 2026</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
