@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <h1 class="heading">Temperature converter</h1>
+        <p class="subheading">Type a value in any field — the rest update instantly.</p>
+      </header>
+
+      <div class="panel">
+        <div class="gauge" aria-hidden="true">
+          <div class="gauge-tube">
+            <div id="gaugeFill" class="gauge-fill"></div>
+          </div>
+          <div class="gauge-bulb">
+            <div id="bulbFill" class="bulb-fill"></div>
+          </div>
+        </div>
+
+        <div class="fields">
+          <div class="field">
+            <label for="celsius">Celsius</label>
+            <div class="field-row">
+              <input
+                oninput="computeTemp(event)"
+                type="number"
+                name="celsius"
+                id="celsius"
+                placeholder="0"
+                class="input"
+              />
+              <span class="unit">°C</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="fahrenheit">Fahrenheit</label>
+            <div class="field-row">
+              <input
+                oninput="computeTemp(event)"
+                type="number"
+                name="fahrenheit"
+                id="fahrenheit"
+                placeholder="32"
+                class="input"
+              />
+              <span class="unit">°F</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="kelvin">Kelvin</label>
+            <div class="field-row">
+              <input
+                oninput="computeTemp(event)"
+                type="number"
+                name="kelvin"
+                id="kelvin"
+                placeholder="273.15"
+                class="input"
+              />
+              <span class="unit">K</span>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="reset-btn" onclick="resetAll()">Reset</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
