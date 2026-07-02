@@ -6,7 +6,7 @@ This project is a responsive personal portfolio website developed to showcase my
 
 ## 📸 Preview
 
-![Portfolio Preview](screenshot.png)
+![Portfolio Preview](screenshot1.png)
 
 ## ✨ Features
 
