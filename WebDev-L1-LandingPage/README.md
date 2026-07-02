@@ -6,7 +6,7 @@ The Marvel Landing Page is a modern, responsive, and visually engaging website i
 
 ## 📸 Preview
 
-![Landing Page Preview](screenshot.png)
+WebDev-L1-LandingPage/screenshot1.png
 
 ## ✨ Features
 
