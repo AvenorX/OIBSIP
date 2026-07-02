@@ -6,7 +6,7 @@ Temperature Converter is a responsive web application that converts temperature 
 
 ## 📸 Preview
 
-![Temperature Converter Preview](screenshot.png)
+![Temperature Converter Preview](screenshot1.png)
 
 ## ✨ Features
 
